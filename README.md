@@ -2,8 +2,11 @@
 python -m venv [ruta]
 python3 -m venv ~/.envs/[nombre_nuevo_entorno]
 # activar el entorno
+se tiene que hacer cada vez que quiero hacer algo al comezar
+en la terminal al lado del nombre aparece en parentesis el nombre del entorno
 source  ~/.envs/my-first-envs/bin/activate
 # instalar paquetes y dependencias
+solo al principio, cuando se crea el entorno
 pip install django
 pip install ipython (para las sugerencias inteligentes en la shell de python)
 pip install Pillow (sirve para subir imagenes?)
@@ -13,6 +16,7 @@ que debería poner en cada projecto cada dependencia para llevar un registro
 django-admin startproject [nombre_del_proyecto]
 # Select interpreter
 En la versión de python en vscode, seleccionar la versión que está dentro de la ruta del entorno, dentro de bin.
+mientras que para html seleccionar el que viene por defecto, el de django va mal
 # Añadir el gitignore
 Hay una web que lo genera
 https://www.toptal.com/developers/gitignore
