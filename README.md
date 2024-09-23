@@ -48,3 +48,7 @@ Car.objects.filter()
 get()
 delete()
 
+#Forms
+creo un archivo nuevo para esto (forms.py)
+son clases
+importar forms y usar el modulo forms en vez de modules.algo
