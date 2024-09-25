@@ -1,0 +1,16 @@
+<!DOCTYPE html>  <!--esto es un html comun por eso no se pone dentro del templates de productos para que django lo entienda tenemos que ir 
+a settings en la parte de templates-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script> <!--esto es de un framework para que sea mas facil y no tener que escribir el css-->
+</head>
+<body>
+    <div class="container mx-auto px-4">
+        {% block content %}{% endblock content %}
+    </div>
+
+</body>
+</html>

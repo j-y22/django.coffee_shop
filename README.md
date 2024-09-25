@@ -51,4 +51,4 @@ delete()
 # Forms
 creo un archivo nuevo para esto (forms.py)
 son clases
-importar forms y usar el modulo forms en vez de modules.algo
+importar forms y usar el modulo forms (forms.algo) en vez de modules (modules.algo)
