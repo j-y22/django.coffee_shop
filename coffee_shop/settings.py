@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     "products",
     "django_template_check",
+    "users",
 ]
 
 MIDDLEWARE = [
