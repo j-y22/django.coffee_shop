@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'products',
     'django_template_check',
     'users',
+    'orders',
 ]
 
 MIDDLEWARE = [
